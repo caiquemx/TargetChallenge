@@ -18,12 +18,18 @@ imprimir(SOMA);
 
 Ao final do processamento, qual será o valor da variável SOMA?*/
 
-const INDICE = 13;
-let SOMA = 0;
-let K = 0;
+// AO FINAL O VALOR SERÁ 78
 
-for (K; K < INDICE; K++) {
-  SOMA = SOMA + K;
+function SOMA() {
+  const INDICE = 13;
+  let SOMA = 0;
+  let K = 0;
+
+  for (K; K < INDICE; K++) {
+    SOMA = SOMA + K;
+  }
+
+  console.log(SOMA);
 }
 
-console.log(SOMA);
+SOMA();
